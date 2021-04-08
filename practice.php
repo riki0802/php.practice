@@ -16,10 +16,10 @@ $tech_boost = "tech";
 $tech_boost .= "boost";
 echo $tech_boost;
 
-$calendar = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+$calendar_2018 = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
 
 // 12月を表示する
-echo $calendar[11];
+echo $calendar_2018[11];
 
 
 
