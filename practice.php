@@ -1,25 +1,19 @@
 <?php
-echo 'hello php!';
-$a = 3;
-$b = 7;
-echo $a + $b;
+$name = "riki";
+if($name === "riki"){
+    echo "あなたは私の名前です" .PHP_EOL; 
+}else {
+    echo "あなたの名前ではありません" .PHP_EOL;
+}
 
-$array_month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
-echo $array_month[7];
+$total = 0;
+for($i = 0; $i <=10000; $i++){
+    $total += $i;
+}
+echo $total .PHP_EOL;
 
-$hello = "Hello,";
-$name = "Riki";
-$world = "'s World!";
-echo $hello.$name.$world;
-
-$tech_boost = "tech";
-$tech_boost .= "boost";
-echo $tech_boost;
-
-$calendar_2018 = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
-
-// 12月を表示する
-echo $calendar_2018[11];
-
-
-
+$fruits = array("apple","orange","lemon","grape","banana");
+foreach($fruits as $fruit){
+    echo "要素は" . $fruit;
+    echo "\n";
+}
